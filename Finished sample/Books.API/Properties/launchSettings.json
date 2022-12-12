@@ -1,0 +1,28 @@
+{
+  "profiles": {
+    "Books.API": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5149"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true, 
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  },
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:33274",
+      "sslPort": 0
+    }
+  }
+}
